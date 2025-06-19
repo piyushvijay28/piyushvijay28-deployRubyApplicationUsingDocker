@@ -1,9 +1,9 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  host: localhost
+  host: postgres
   username: postgres
-  password:                            # Leave blank if no password, or add your password
+  password: password
   pool: 5
 
 development:
